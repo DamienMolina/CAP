@@ -1,3 +1,5 @@
+import math
+from constantes import *
 #Define all the functions used in the csv reader
 def gen_dict_relais(row, numero_relais, distance=-1):
     #Will generate all the stats for one runner
