@@ -53,9 +53,7 @@ with open(csv_ekiden) as csvfile:
                 order[2] = 0
                 order[1] = 1
                 order[0] = 2
-        print(order)
         list_orders.append(order)
-    print(list_orders)
     first_relay = 0
     second_relay = 0
     third_relay = 0
