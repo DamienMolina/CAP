@@ -1,3 +1,4 @@
+csv_duo = "resultats_corrida_pedestre_2017.csv"
 #Filename for the original file
 csv_ekiden = "EKIDEN_TOULON/Resultats_ekiden_toulon.csv"
 #folder where the individual results will be written

@@ -36,3 +36,7 @@ def gen_dict_relais(row, numero_relais, distance=-1):
     dict_relais[speed_relay] = "{}".format(round(speed, 2))
     dict_relais[pace_relay] = "{0:02d}:{1:02d}".format(pace_minute, round(pace_second), 0)
     return dict_relais
+
+#Pretty print for 
+def int_2_minutes(minutes):
+    return "{0:02d}:{0:02d}".format(int(minutes), int((minutes-int(minutes))*60))
