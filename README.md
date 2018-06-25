@@ -23,6 +23,23 @@ A partir du document EKIDEN_TOULON/Resultats_ekiden_toulon.csv, le script *csv_r
 * 10km.csv, qui rassemble les résultats triés de tous les concurrents ayant courus 10km (Relais 2 et 4)
 * 7km.csv qui rassemble les résultats triés de tous les concurrents ayant courus 7km (Relais 6)
 
+Dans l'exemple fourni, on peut voir les résultats de l'édition 2018 de l'ekiden de Toulon pour les coureurs du 5km.
+```
+Le premier relais est le plus rapide 39 fois
+Le deuxième relais est le plus rapide 21 fois
+Le troisième relais est le plus rapide 23 fois
+
+Le premier relais est le deuxième plus rapide 26 fois
+Le deuxième relais est le deuxième plus rapide 23 fois
+Le troisième relais est le deuxième plus rapide 34 fois
+
+Le premier relais est le plus lent 18 fois
+Le deuxième relais est le plus lent 39 fois
+Le troisième relais est le plus lent 26 fois
+
+```
+
+
 ## Relais+duo
 Le fichier analyze_duo.py lit le fichier csv indiqué dans *constantes.py* sous la variable "csv_duo" et va calculer le nombre de fois que:
 * Le premier coureur est le plus rapide,
